@@ -1,0 +1,33 @@
+<div class="right-section">
+        <h3>Spells</h3>
+    <div class="col one_fourth fp_post">
+        <h2><a href="#">White Circle Protection</a></h2>
+        <p id="image-container"> 
+        <a href="#"><img id="dr-img" src="assets/desert-rush-splash.png" alt="Image:WhiteCircle" /></a>
+        </p>
+        <p>A Learn how to summon a protection circle to ward negative energy <a href="#">click here !</a><br><a href="#">learn to ward off energy stealers</a> Heat is Energy <a href="#">Protection from energy vampires</a></p>
+    </div>
+    <div class="col one_fourth fp_post">
+        <h2><a href="#">Exctoplasm</a></h2>
+        <p id="image-container">
+        <a href="#"><img id="dr-img" src="assets/Plazma.png" alt="Image:Exctoplasm" /></a>
+        </p>
+        <p>Learn about Ghosts<a href="#">Learn</a>What are they and how to they appear <a href="#">Past lives</a> Find out more and learn <a href="#">click here for a list of ghosts</a></p>
+    </div>
+    <div class="col one_fourth fp_post">
+        <h2><a href="#">Astral Traveling</a></h2>
+        <p id="image-container">
+        <a href="#"><img id="dr-img" src="assets/PB.png" alt="Image:AstralProjection" /></a>
+        </p>
+        <p>Learn how to astral Travel</p>
+        
+    </div>
+    <div class="col one_fourth fp_post no_margin_right">
+        <h2><a href="#">Resources</a></h2>
+        <p id="image-container">
+        <a href="#"><img id="dr-img" src="assets/Resource.png" alt="Image:Resources" /></a>
+        </p>
+        <p>Books, Crystals, Herbs, Tools, Tarrot</p>
+    </div>
+    </div>
+    

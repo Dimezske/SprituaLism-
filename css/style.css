@@ -1,4 +1,21 @@
-
+header {
+  background-color: #000!important;
+  bottom: -100px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: blue!important;
+  background-image: url("../images/highlands.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-attachment: fixed;
+  z-index: auto; 
+}
+hr {
+        height: 1px;
+        background-color: blue;
+        border: none;
+}
 .flex-container {
     display: flex;
     background-color: rgb(54, 63, 73);
@@ -10,6 +27,156 @@
     padding: 20px;
     font-size: 30px;
   }
-hr {
-    color:blue;
+
+#amythystImg{
+    max-width: 50%;
+    max-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.one_fourth { 
+	width: 150px; 
+}
+
+#content, .two-third { 
+	width: 540px; 
+}
+.col { 
+	float: left; 
+	margin: 10px 20px 20px 0; 
+}
+.no_margin_right { 
+	margin-right: 0;
+}
+.fp_post h2 { font-size: 18px; margin-bottom: 5px }
+.fp_post h2 a { color: #333 }
+.fp_post img { margin-bottom: -20px }
+.fp_post p { font-size: 11px }
+
+.flex-wrapper{
+  
+  display: flex;
+  font-size: 60px;
+  background-color: #837d75;
+  color: wheat;
+  font-weight: bold;
+  margin-bottom: -500px;
+  margin-right: 350px;
+  margin-left: 350px;
+  padding: -250px;
+}
+
+.flex-wrapper > left-section {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+}
+.flex-wrapper > right-section {
+  
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+
+}
+
+.col one_fourth fp_post{
+   font-size: 20px;
+}
+
+
+.footer-top { padding: 60px 0; background: #333; text-align: left; color: #aaa; }
+.footer-top h3 { padding-bottom: 10px; color: #fff; }
+
+.footer-about img.logo-footer { max-width: 74px; margin-top: 0; margin-bottom: 18px; }
+.footer-about p a { border: 0; }
+.footer-about p a:hover, .footer-about p a:focus { border: 0; }
+
+.footer-contact p { word-wrap: break-word; }
+.footer-contact i { padding-right: 10px; font-size: 18px; color: #666; }
+.footer-contact p a { border: 0; }
+.footer-contact p a:hover, .footer-contact p a:focus { border: 0; }
+
+.footer-links a { color: #aaa; border: 0; }
+.footer-links a:hover, .footer-links a:focus { color: #fff; }
+
+.footer-bottom { padding: 15px 0 17px 0; background: #444; text-align: left; color: #aaa; }
+
+.footer-social { padding-top: 3px; text-align: right; }
+.footer-social a { margin-left: 20px; color: #777; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color: #79a05f; border: 0; }
+.footer-social i { font-size: 24px; vertical-align: middle; }
+
+.footer-copyright { padding-top: 5px; }
+.footer-copyright a { color: #fff; border: 0; }
+.footer-copyright a:hover, .footer-copyright a:focus { color: #aaa; border: 0; }
+
+
+
+
+.text-block {
+  position: absolute;
+  background-color: rgba(123, 126, 172, 0.8);
+  color: white;
+  z-index: 2;
+}
+.background-image{
+  background-color: rgba(204, 204, 204, 0.534);
+}
+#amythystImg{
+  margin-top: -20px;
+  position: relative;
+  z-index: 1;
+}
+.col-md-4{
+    left: 200px;
+}
+
+.some-page-wrapper {
+  margin: 15px;
+
+}
+.some-page-wrapper2 {
+  margin: 15px;
+
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 20px;
+}
+
+.blue-column {
+  background-color: blue;
+  height: 100px;
+ 
+}
+
+.green-column {
+  background-color: green;
+  height: 100px;
+
+}
+.row-2-container{
+  margin-top: 350px;
+}
+.chakra-crystals{
+  margin-top: -800px;
 }
