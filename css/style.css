@@ -1,3 +1,4 @@
+
 header {
   background-color: #000!important;
   bottom: -100px;
@@ -16,6 +17,8 @@ hr {
         background-color: blue;
         border: none;
 }
+#content-text {display:inline-block; width:45%; padding:10px}
+#context-text-div {display:inline-block; width:45%; padding-left:1000px;}
 .flex-container {
     display: flex;
     background-color: rgb(54, 63, 73);
@@ -38,10 +41,14 @@ hr {
 .one_fourth { 
 	width: 150px; 
 }
-
-#content, .two-third { 
-	width: 540px; 
+#content-text{  
+  width:50%;
 }
+#content-text-div{
+  width: 100%;
+}
+#content{width: 1400px;}
+
 .col { 
 	float: left; 
 	margin: 10px 20px 20px 0; 
