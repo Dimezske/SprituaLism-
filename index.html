@@ -5,12 +5,14 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale = 0.8,maximum-scale = 0.8" />
     <style>
-        /*   body {
+      html {zoom: -90%;}
+        body {
             padding: 0px;
             margin: 0px;
             background: #242424;
-        } */
+        } 
         * {
             margin: 0;
             padding: 0;
@@ -19,16 +21,18 @@
 
         body {
             background: #000;
-            
             font-family: 'Open Sans', sans-serif;
             color: blue;
         }
     </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/afb9790637.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./style.js"></script>
 </head>
 <header>
     <div class="background-image">
@@ -40,50 +44,57 @@
             <p><i>Welcome to this spirtual portal of work, as you relax and read through you will find all your true calling and spritutal needs and spritual desires</i></p>
           </div>
           <div id="context-text-div"><nav class="navbar navbar-expand-lg navbar-light bg-grey">
-            
             <a class="navbar-brand" href="index.html">Home <span class="sr-only">(current)</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="features.hmtl">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pricing.hmtl">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pricing.hmtl">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pricing.hmtl">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pricing.hmtl">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pricing.hmtl">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pricing.hmtl">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Subsideraries</a>
-                </li>
-              </ul>
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="features.html">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="locations.html">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="holistic.html">Holistic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ayurvedic.html">Ayurvedic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mantras.html">Mantras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="affimations.html">Affimations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="affiliates.html">Affiliates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="subsideraries.html">Subsideraries</a>
+              </li>
+            </ul>
             </div>
           </nav></div>
         </div>
         
         <div class="flex-container">
             
-            <div><a href="#" style="color: blue;">Reiki</a></div>
+            <div><a href="reiki.html" style="color: blue;">Reiki</a></div>
             
-            <div><a href="#">Nordic Stones</a></div>
+            <div><a href="nordic-runes.html">Nordic Stones</a></div>
             
             <div><a href="#">Numerology</a></div>
             
@@ -100,7 +111,17 @@
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
               </form>
             </nav> 
+            <span class="icon-wrapper">
+              <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+            </span>
+            <span class="icon-wrapper">
+              <a href="#"><i class="fa-regular fa-address-card"></i></a>
+            </span>
+            <span class="icon-wrapper">
+              <a href="#"><i class="fa-solid fa-right-to-bracket"></i></a>
+            </span>
           </div>
+          
           <hr>
          <br> 
     </div>
@@ -116,7 +137,7 @@
                       <div class="col-md-6">
                           <h2><a style="color: wheat;" href="#">White Circle Protection</a></h2>
                           <p id="image-container"> 
-                          <a href="#"><img src="./images/magick-light-circle.png" alt="Image:WhiteCircle" width="200" height="200"></a>
+                          <a href="#"><img src="./images/magick-light-circle.png" alt="Image:WhiteCircle" class="block-image"></a>
                          <p style="color:wheat">Learn how to summon a protection circle to ward negative energy <a href="#" style="color:rgb(255, 255, 255)">click here</a></p></p>
                       </div>
                     </div>
@@ -129,7 +150,7 @@
                       <div class="col-md-6">
                           <h2><a style="color: chartreuse;" href="#">Earth Grounding</a></h2>
                           <p id="image-container"> 
-                          <a href="#"><img src="./images/Seal-ref-earth.png" alt="Image:WhiteCircle" width="260" height="260"></a>
+                          <a href="#"><img src="./images/Seal-ref-earth.png" alt="Image:WhiteCircle" class="block-image"></a>
                           </p>
                           <p style="color:rgb(28, 206, 28)">A Learn how to ground and protect your energy <a href="#"style="color:chartreuse">click here!</a></p>
                       </div>
@@ -152,9 +173,9 @@
                               <div class="col-md-6">
                                   <h2><a style="color: wheat;" href="#">Air flow Excitation</a></h2>
                                   <p id="image-container"> 
-                                  <a href="#"><img src="./images/air.png" alt="Image:WhiteCircle" width="200" height="200"></a>
+                                  <a href="#"><img src="./images/air.png" alt="Image:WhiteCircle" class="block-image"></a>
                                   </p>
-                                  <p style="color:rgb(205, 249, 252)">Learn how to create Air spells to Excite look apon the spirits of the air to gain more understanding <a href="#" style="color:rgb(255, 255, 255)">click here </a></p>
+                                  <p style="color:rgb(205, 249, 252)">Learn how to create air spells to Excite look apon the spirits of the air <a href="#" style="color:rgb(255, 255, 255)">click here </a></p>
                               </div>
                             </div>
                         </div>
@@ -166,7 +187,7 @@
                               <div class="col-md-6">
                                   <h2><a style="color: rgb(92, 231, 250);" href="#">Water Flowing</a></h2>
                                   <p id="image-container"> 
-                                  <a href="#"><img src="./images/waterfall-water.gif" alt="Image:Flowing water" width="260" height="260"></a>
+                                  <a href="#"><img src="./images/waterfall-water.gif" alt="Image:Flowing water" class="block-image"></a>
                                   </p>
                                   <p style="color:rgb(56, 192, 216)">Flowing water is healing, cold water to netrilze negetive energy <a href="#" style="color: blue;">click here </a></p>
                               </div>
@@ -189,9 +210,9 @@
                           <div class="col-md-6">
                               <h2><a style="color: rgb(119, 11, 243);" href="#">Astral Traveling</a></h2>
                               <p id="image-container"> 
-                              <a href="#"><img src="./images/356.png" alt="Image:WhiteCircle" width="200" height="260"></a>
+                              <a href="#"><img src="./images/356.png" alt="Image:WhiteCircle" class="block-image"></a>
                               </p>
-                              <p style="color:rgb(119, 11, 243);">Learn how to transmutate your body with an astral travel OBE and your silver cord lining<a href="#" style="color:rgb(255, 255, 255)">click here </a></p>
+                              <p style="color:rgb(119, 11, 243);">Learn how to transmutate your body with an astral travel (OBE) outter body experiances and your silver cord lining <a href="#" style="color:rgb(255, 255, 255)">click here </a></p>
                           </div>
                         </div>
                     </div>
@@ -203,9 +224,9 @@
                           <div class="col-md-6">
                               <h2><a style="color: rgb(255, 106, 46);" href="#">Fire Projection </a></h2>
                               <p id="image-container"> 
-                              <a href="#"><img src="./images/fire-circle.png" alt="Image:Flowing water" width="260" height="260"></a>
+                              <a href="#"><img src="./images/fire-circle.png" alt="Image:Flowing water" class="block-image"></a>
                               </p>
-                              <p style="color:rgb(255, 106, 46)">learn how to Fire Project <a href="#" style="color: coral;">click here </a><br><a href="#" style="color:coral">learn to cast Fire magick for sprititual protection</a><a href="#" style="color: crimson;">click here</a></p>
+                              <p style="color:rgb(255, 106, 46)">learn how to Fire Project <a href="#" style="color: coral;">click here </a><br><a href="#" style="color:coral">learn to cast Fire magick for sprititual protection </a><a href="#" style="color: crimson;">click here</a></p>
                           </div>
                         </div>
                     </div>
@@ -226,7 +247,7 @@
                       <div class="col-md-6">
                           <h2><a style="color: rgb(240, 104, 178);" href="#">Love and Serenity</a></h2>
                           <p id="image-container"> 
-                          <a href="#"><img src="./images/rosequatz.png" alt="Image:WhiteCircle" width="200" height="260"></a>
+                          <a href="#"><img src="./images/rosequatz.png" alt="Image:WhiteCircle" class="block-image"></a>
                           </p>
                           <p style="color:rgb(211, 138, 181);">Learn how to transmutate reiki for your self and others <a href="#" style="color:rgb(245, 58, 182)">click here </a></p>
                       </div>
@@ -240,7 +261,7 @@
                       <div class="col-md-6">
                           <h2><a style="color: rgb(0, 255, 149);" href="#">Money Attraction </a></h2>
                           <p id="image-container"> 
-                          <a href="#"><img src="./images/100-dollars.png" alt="Image:Flowing water" width="260" height="260"></a>
+                          <a href="#"><img src="./images/100-dollars.png" alt="Image:Flowing water" class="block-image"></a>
                           </p>
                           <p style="color: rgb(0, 255, 149)">learn how to become wealthy and attract money <a href="#"style="color:chartreuse">click here </a><br><a href="#"></a></p>
                       </div>
@@ -263,7 +284,7 @@
                       <div class="col-md-6">
                           <h2><a style="color: rgb(247, 255, 129);" href="#">Energize and amplify</a></h2>
                           <p id="image-container"> 
-                          <a href="#"><img src="./images/tigerseyeglow.png" alt="Image:WhiteCircle" width="200" height="260"></a>
+                          <a href="#"><img src="./images/tigerseyeglow.png" alt="Image:WhiteCircle" class="block-image"></a>
                           </p>
                           <p style="color:rgb(247, 255, 129);">Learn how to transmutate reiki for your self and others <a href="#" style="color:rgb(177, 189, 21)">click here </a></p>
                       </div>
@@ -277,7 +298,7 @@
                       <div class="col-md-6">
                           <h2><a style="color: rgb(255, 153, 0);" href="#">Solar Alignment</a></h2>
                           <p id="image-container"> 
-                          <a href="#"><img src="./images/Sun.png" alt="Image:Flowing water" width="260" height="260"></a>
+                          <a href="#"><img src="./images/Sun.png" alt="Image:Flowing water" class="block-image"></a>
                           </p>
                           <p style="color: rgb(255, 153, 0)">learn how to become wealthy and aquire fiancial skills and attract money <a href="#"style="color:rgb(255, 103, 0)">click here </a><br><a href="#"></a></p>
                       </div>
@@ -298,11 +319,11 @@
                       <div class="col-md-12 text-block">
                           <h3>Spells</h3>
                         <div class="col-md-6">
-                            <h2><a style="color: rgb(255, 123, 0);" href="#">Creativity and Lust</a></h2>
+                            <h2><a style="color: rgb(255, 123, 0);" href="#">Creativity and Joy and Pleasure</a></h2>
                             <p id="image-container"> 
-                            <a href="#"><img src="./images/creativity.png" alt="Image:WhiteCircle" width="200" height="300"></a>
+                            <a href="#"><img src="./images/creativity.png" alt="Image:WhiteCircle" class="block-image" height="300px"></a>
                             </p>
-                            <p style="color:rgb(240, 156, 87);">Learn how to eminate burning desires and endulge into lifes pleasures bring about good feelings and vibriations<br><a href="#" style="color:rgb(255, 81, 0)">click here </a></p>
+                            <p style="color:rgb(240, 156, 87);">Learn how to eminate burning desires into lifes pleasures bring about good feelings <br><a href="#" style="color:rgb(255, 81, 0)">click here </a></p>
                         </div>
                       </div>
                   </div>
@@ -312,11 +333,48 @@
                       <div class="col-md-12 text-block">
                           <h3>Spells</h3>
                         <div class="col-md-6">
-                            <h2><a style="color: rgb(253, 107, 49);" href="#">Self-esteem and mental balance</a></h2>
+                            <h2><a style="color: rgb(253, 107, 49);" href="#">Self-esteem Mental Balance & Strength</a></h2>
                             <p id="image-container"> 
-                            <a href="#"><img src="./images/creativity.png" alt="Image:Flowing water" width="260" height="260"></a>
+                            <a href="#"><img src="./images/creativity.png" alt="Image:Flowing water" class="block-image" height="300px"></a>
                             </p>
                             <p style="color: rgb(248, 143, 101);"">Learn Subliminal Affirmations, to knock on the door of your subconscious mind and harness will power <a href="#" style="color:rgb(230, 109, 72);"">click here </a><br><a href="#"></a></p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+      </div>
+      <div class="cleaner divider"></div>
+    <div class="row-4-container">
+      <div class='some-page-wrapper4'>
+          <div class='some-page-wrapper4'>
+              <div class='row-block'>
+                <div class='column'>
+                  <div class='red-column'>
+                      <div class="col-md-12 text-block">
+                          <h3>Spells</h3>
+                        <div class="col-md-6">
+                            <h2><a style="color: rgb(255, 0, 0);" href="#">Survival</a></h2>
+                            <p id="image-container"> 
+                            <a href="#"><img src="./images/war.png" alt="Image:WhiteCircle" class="block-image"></a>
+                            </p>
+                            <p style="color:rgb(240, 87, 87);">Learn how to boost you your inner protection and ward off negativity and stick up for thyself<br><a href="#" style="color:rgb(173, 60, 60)">click here </a></p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class='column'>
+                  <div class='red-column'>
+                      <div class="col-md-12 text-block">
+                          <h3>Spells</h3>
+                        <div class="col-md-6">
+                            <h2><a style="color: rgb(253, 49, 49);" href="#">Physiology</a></h2>
+                            <p id="image-container"> 
+                            <a href="#"><img src="./images/rootfoods.png" alt="Image:Flowing water" class="block-image"></a>
+                            </p>
+                            <p style="color: rgb(248, 101, 101);"">Learn how to take care of your physical body, spiritually and biochemically to astonish your greater well being <a href="#" style="color:rgb(136, 52, 52);"">click here </a><br><a href="#"></a></p>
                         </div>
                       </div>
                   </div>
@@ -338,6 +396,8 @@
         <img id="appetiteImg" src="./images/appatiteglow.png">
         <div class="cleaner divider"></div>
         <img id="citrineImg" src="./images/citrine.png">
+        <div class="cleaner divider"></div>
+        <img id="redjasperImg" src="./images/red-jasper.png">
         </div>
 </body>
 <footer>
