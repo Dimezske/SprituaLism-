@@ -6,7 +6,7 @@ header {
   body {
     font-family: 'Open Sans', sans-serif;
     color: blue!important;
-    background-image: url("../images/highlands.jpg");
+    background-image: url("../images/Wallpapers/sunrays.jpg");
     background-repeat: no-repeat;
     background-position: bottom center;
     background-attachment: fixed;
@@ -123,10 +123,17 @@ header {
   
   .text-block {
     position: absolute;
-    background-color: rgba(123, 126, 172, 0.8);
-    color: white;
+    background-color: rgba(205, 229, 182, 0.8);
+    color: rgb(138, 138, 138);
     z-index: 2;
   }
+  /*
+  background
+  rgba(69, 82, 58, 0.8);
+  text
+  color: rgb(138, 138, 138);
+  html
+  color:rgb(221, 238, 221)*/
   .background-image{
     background-color: rgba(204, 204, 204, 0.534);
   }
@@ -414,6 +421,13 @@ header {
     text-align: center;
     left: 500px;
     margin-bottom: -220px;
+  }
+  .text-container{
+    display:flex;
+    padding: 20px;
+  }
+  .text-container > p{
+    margin-left: 20px;
   }
   @media only screen and (min-width: 600px) {
     html {
