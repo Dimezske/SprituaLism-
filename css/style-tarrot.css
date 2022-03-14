@@ -302,6 +302,11 @@ header {
     height: 100px;
    
   }
+  .white2-column {
+    background-color: white;
+    height: 100px;
+    width: 750px;
+  }
   .pink-column {
     background-color: palevioletred;
     height: 100px;
