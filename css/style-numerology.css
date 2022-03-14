@@ -6,7 +6,7 @@ header {
 body {
   font-family: 'Open Sans', sans-serif;
   color: blue!important;
-  background-image: url("../images/Wallpapers/enchantment.jpg");
+  background-image: url("../images/Wallpapers/enchantment.jpeg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-attachment: fixed;
@@ -419,7 +419,7 @@ hr {
   text-shadow: 2px 2px #373a25;
 }
 .numerology-bg{
-  background-image: url("../images/Wallpapers/enchantment.jpg");
+  background-image: url("../images/Wallpapers/enchantment.jpeg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-attachment: fixed;
